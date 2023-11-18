@@ -299,6 +299,7 @@ p{margin: 15px 0;}
     color: hsla(48, 69%, 75%, 1);
 }
 .textName {
+    font-size: 1.25em;
 	margin: 0px;
 	padding: 0px;
 	font-weight: bold;
@@ -783,7 +784,7 @@ img.thumbnailImage.basic{
 	flex: none;
 }
 textName.basic{
-	font-size: 1.25em;
+/*	font-size: 1.25em;*/
 	margin: 0px;
 	padding: 0px;
 	font-weight: bold;
