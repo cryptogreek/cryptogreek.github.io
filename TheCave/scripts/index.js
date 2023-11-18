@@ -1130,28 +1130,28 @@ function writeSpeech (name, img, text, altName, altColor) {
 
 	if (name == "A") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
-		finalImg = "scripts/gamefiles/profiles/none.png";
+		finalImg = "scripts/gamefiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#8d8d8d";
 	}
 
 	if (name == "A-") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
-		finalImg = "scripts/gamefiles/profiles/none.png";
+		finalImg = "scripts/gamefiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#87726d";
 	}
 
 	if (name == "A--") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
-		finalImg = "scripts/gamefiles/profiles/none.png";
+		finalImg = "scripts/gamefiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#84574d";
 	}
 
 	if (name == "A---") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
-		finalImg = "scripts/gamefiles/profiles/none.png";
+		finalImg = "scripts/gamefiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#7e473b";
 	}
