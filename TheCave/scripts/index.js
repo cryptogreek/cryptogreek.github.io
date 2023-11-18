@@ -86,12 +86,6 @@ function loadEncounter(scene) {
 			}
 			break;
 		}
-		writeHTML(`
-			sp lalaland; Oh man, I sure do love stuff
-			t Clearly, she loves stuff.
-			define lalaland = sp lalaland;
-			lalaland That is correct
-		`);
 		case "start" : {
 			writeSpeech("player","","...Shit. It really is hers...?");
 			writeText("Adjusting the screen to avoid the midday glare at her back, she ran a third comparison despite already being sure.");
@@ -1136,24 +1130,28 @@ function writeSpeech (name, img, text, altName, altColor) {
 
 	if (name == "A") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
+		finalImg = "scripts/gamefiles/profiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#8d8d8d";
 	}
 
 	if (name == "A-") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
+		finalImg = "scripts/gamefiles/profiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#87726d";
 	}
 
 	if (name == "A--") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
+		finalImg = "scripts/gamefiles/profiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#84574d";
 	}
 
 	if (name == "A---") {
 		//finalImg = "scripts/gamefiles/profiles/" + data.player.character + ".png";
+		finalImg = "scripts/gamefiles/profiles/none.png";
 		finalName = data.player.name;
 		finalColor = "#7e473b";
 	}
