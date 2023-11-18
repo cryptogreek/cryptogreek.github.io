@@ -87,7 +87,7 @@ function loadEncounter(scene) {
 			break;
 		}
 		case "start" : {
-			writeSpeech("player","","...Shit. It really is hers...?");
+			writeSpeech("player","","...Shit. It really is hers.");
 			writeText("Adjusting the screen to avoid the midday glare at her back, she ran a third comparison despite already being sure.");
 			writeText("When it returned as yet another positive match, she exhaled sharply through her teeth.");
 			writeSpeech("player","","What the Hell were you doing here...?");
